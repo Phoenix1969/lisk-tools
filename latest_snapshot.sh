@@ -19,7 +19,7 @@ echo "corsaro     " $todate5
 todate6=$(date -d "$var6" +"%Y-%m-%d %H:%M:%S")
 echo "lisk hq     " $todate6
 todate7=$(date -d "$var7" +"%Y-%m-%d %H:%M:%S")
-echo "lisk hq     " $todate7
+echo "Phoenix     " $todate7
 echo -e "\e[39m"
 
 
