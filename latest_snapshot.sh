@@ -42,6 +42,9 @@ datex5=$(date -d "$todate5" +%s)
 datex6=$(date -d "$todate6" +%s)
 #echo $datex6
 
+datex7=$(date -d "$todate7" +%s)
+#echo $datex7
+
 
 
 
@@ -98,4 +101,13 @@ then
    echo "rebuild using latest snapshot with:";
    echo "bash lisk.sh rebuild -u https://downloads.lisk.io/lisk/main/"
  fi;
+ 
+ if [ $datex7 \> $datex1 -a $datex7 \> $datex2 -a $datex7 \> $datex3 -a $datex7 \> $datex4 -a $datex7 \> $datex6 ];
+then
+   echo "latest snapshot is on Phoenix repo";
+   echo "http://lisk.mainchain.us/";
+   echo "rebuild using latest snapshot with:";
+   echo "bash lisk.sh rebuild -u http://lisk.mainchain.us/ -f blockchain.db.gz"
+ fi;
+
 
