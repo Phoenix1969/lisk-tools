@@ -4,6 +4,7 @@ var3=$(date --rfc-3339="seconds" -d "`wget -S --spider https://s.mylisk.com/bloc
 var4=$(date --rfc-3339="seconds" -d "`wget -S --spider https://snapshot.thepool.io/blockchain.db.gz 2>&1 | grep -o -P "Last-Modified:.*" --line-buffered | sed -u -r "s/Last-Modified:\s//"`")
 var5=$(date --rfc-3339="seconds" -d "`wget -S --spider https://snapshot.liskworld.info/blockchain.db.gz 2>&1 | grep -o -P "Last-Modified:.*" --line-buffered | sed -u -r "s/Last-Modified:\s//"`")
 var6=$(date --rfc-3339="seconds" -d "`wget -S --spider https://downloads.lisk.io/lisk/main/blockchain.db.gz 2>&1 | grep -o -P "Last-Modified:.*" --line-buffered | sed -u -r "s/Last-Modified:\s//"`")
+var7=$(date --rfc-3339="seconds" -d "`wget -S --spider http://lisk.mainchain.us/blockchain.db.gz 2>&1 | grep -o -P "Last-Modified:.*" --line-buffered | sed -u -r "s/Last-Modified:\s//"`")
 echo -e "\e[33m"
 todate1=$(date -d "$var1" +"%Y-%m-%d %H:%M:%S")
 echo "gr33ndrag0n " $todate1
