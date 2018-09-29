@@ -53,7 +53,7 @@ then
    echo "latest snapshot is on gr33ndrag0n repo";
    echo "https://snapshot.lisknode.io/";
    echo "rebuild using latest snapshot with:";
-   echo "bash lisk.sh rebuild -u https://snapshot.lisknode.io/"
+   echo "bash lisk.sh rebuild -u https://snapshot.lisknode.io/ -f blockchain.db.gz"
 
 fi;
 
@@ -63,7 +63,7 @@ then
    echo "latest snapshot is on mrv repo";
    echo "https://lisktools.io/backups/";
    echo "rebuild using latest snapshot with:";
-   echo "bash lisk.sh rebuild -u https://lisktools.io/backups/"
+   echo "bash lisk.sh rebuild -u https://lisktools.io/backups/ -f blockchain.db.gz"
 
 fi;
 
@@ -72,7 +72,7 @@ then
    echo "latest snapshot is on bioly repo";
    echo "https://s.mylisk.com/";
    echo "rebuild using latest snapshot with:";
-   echo "bash lisk.sh rebuild -u https://s.mylisk.com/"
+   echo "bash lisk.sh rebuild -u https://s.mylisk.com/ -f blockchain.db.gz"
 
 fi;
 
@@ -81,7 +81,7 @@ then
    echo "latest snapshot is on karek repo";
    echo "https://snapshot.thepool.io/";
    echo "rebuild using latest snapshot with:";
-   echo "bash lisk.sh rebuild -u https://snapshot.thepool.io/"
+   echo "bash lisk.sh rebuild -u https://snapshot.thepool.io/ -f blockchain.db.gz"
 
 fi;
 
@@ -90,7 +90,7 @@ then
    echo "latest snapshot is on corsaro repo";
    echo "https://snapshot.liskworld.info/";
    echo "rebuild using latest snapshot with:";
-   echo "bash lisk.sh rebuild -u https://snapshot.liskworld.info/"
+   echo "bash lisk.sh rebuild -u https://snapshot.liskworld.info/ -f blockchain.db.gz"
 
 fi;
 
